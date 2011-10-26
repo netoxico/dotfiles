@@ -1,9 +1,10 @@
-Installation:
--------------
+#Installation:
 
-#git clone git://github.com/netoxico/dotfiles.git ~/.dotfiles
+git clone git://github.com/netoxico/dotfiles.git ~/.dotfiles
+------------------------------------------------------------
 
-#For vim plugins installed as git submodules. Check these
+For vim plugins installed as git submodules. Check these
+---------------------------------------------------------
 
 * cd .dotfiles/vim
 * git submodule init
