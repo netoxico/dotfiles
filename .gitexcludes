@@ -1,0 +1,10 @@
+*.pyc
+local_settings.py
+.project
+.pydevproject
+.netrwhist
+*.swp
+*.db
+.DS_Store
+.idea
+.bb.erb
