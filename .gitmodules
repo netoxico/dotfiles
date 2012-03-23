@@ -3,7 +3,7 @@
 	url = https://github.com/tpope/vim-fugitive.git
 [submodule "vim/bundle/sparkup"]
 	path = vim/bundle/sparkup
-	url = http://github.com/bingaman/vim-sparkup.git
+	url = https://github.com/bingaman/vim-sparkup.git
 [submodule "vim/bundle/nerdtree"]
 	path = vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
