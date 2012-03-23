@@ -1,8 +1,9 @@
 #Installation:
 
-###if os installation
+###If muy new os installation
 * cd ~/.ssh
 * ssh-keygen -t rsa -C "my@email.com"
+* Upload public key to github my account
 
 ###oh-my-zsh
 
