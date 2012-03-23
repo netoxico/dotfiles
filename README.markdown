@@ -1,10 +1,14 @@
 #Installation:
 
-###Clone git
+###oh-my-zsh
+
+git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+
+###dotfiles
 
 * git clone git://github.com/netoxico/dotfiles.git ~/.dotfiles
 
-###For vim plugins installed as git submodules. Check these
+###For vim plugins installed as git submodules
 
 * cd .dotfiles/vim
 * git submodule init
@@ -13,6 +17,5 @@
 ###Create symlinks:
 
 * ln -s ~/.dotfiles/vim ~/.vim
-* ln -s ~/.dotfiles/.vimrc ~/.vimrc
-* ln -s ~/.dotfiles/.zshrc ~/.vimrc
-* etc.. etc..
+* ln -s ~/.dotfiles/vim/vimrc ~/.vimrc
+* ln -s ~/.dotfiles/.zshrc ~/.zshrc

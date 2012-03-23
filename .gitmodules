@@ -1,27 +1,27 @@
-[submodule "bundle/fugitive"]
-	path = bundle/fugitive
+[submodule "vim/bundle/fugitive"]
+	path = vim/bundle/fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule "bundle/sparkup"]
-	path = bundle/sparkup
+[submodule "vim/bundle/sparkup"]
+	path = vim/bundle/sparkup
 	url = http://github.com/bingaman/vim-sparkup.git
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "bundle/snipmate"]
-	path = bundle/snipmate
+[submodule "vim/bundle/snipmate"]
+	path = vim/bundle/snipmate
 	url = https://github.com/msanders/snipmate.vim.git
-[submodule "bundle/bufexplorer"]
-	path = bundle/bufexplorer
+[submodule "vim/bundle/bufexplorer"]
+	path = vim/bundle/bufexplorer
 	url = https://github.com/slack/vim-bufexplorer.git
-[submodule "bundle/pydoc"]
-	path = bundle/pydoc
+[submodule "vim/bundle/pydoc"]
+	path = vim/bundle/pydoc
 	url = https://github.com/fs111/pydoc.vim.git
-[submodule "bundle/command-t"]
-	path = bundle/command-t
+[submodule "vim/bundle/command-t"]
+	path = vim/bundle/command-t
 	url = https://github.com/wincent/Command-T.git
-[submodule "bundle/pep8"]
-	path = bundle/pep8
+[submodule "vim/bundle/pep8"]
+	path = vim/bundle/pep8
 	url = https://github.com/vim-scripts/pep8.git
-[submodule "bundle/vim-css-color"]
-	path = bundle/vim-css-color
+[submodule "vim/bundle/vim-css-color"]
+	path = vim/bundle/vim-css-color
 	url = git://github.com/skammer/vim-css-color.git
