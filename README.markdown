@@ -23,3 +23,8 @@
 * ln -s ~/.dotfiles/vim ~/.vim
 * ln -s ~/.dotfiles/vim/vimrc ~/.vimrc
 * ln -s ~/.dotfiles/.zshrc ~/.zshrc
+* ln -s ~/.dotfiles/.gitexcludes ~/.gitexcludes
+
+###TODO
+
+* Will be better to have a script that execute all this steps.
