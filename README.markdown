@@ -24,6 +24,7 @@
 * ln -s ~/.dotfiles/vim/vimrc ~/.vimrc
 * ln -s ~/.dotfiles/.zshrc ~/.zshrc
 * ln -s ~/.dotfiles/.gitexcludes ~/.gitexcludes
+* git config --global core.excludesfile ~/.gitignore
 
 ###TODO
 
