@@ -22,3 +22,4 @@ alias ql='qlmanage -p 2>/dev/null'
 
 #export PATH=${PATH}:/Users/ernesto/libs/rhodes/bin
 #export RHO_HOME=/Users/ernesto/libs/rhodes
+export PATH=$PATH:/Users/netoxico/lib/java/play-1.2.4
