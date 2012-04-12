@@ -22,11 +22,10 @@ alias ql='qlmanage -p 2>/dev/null'
 
 #export PATH=${PATH}:/Users/ernesto/libs/rhodes/bin
 #export RHO_HOME=/Users/ernesto/libs/rhodes
-<<<<<<< HEAD
+
+#play
 export PATH=$PATH:/Users/netoxico/lib/java/play-1.2.4
-=======
 
 #virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
->>>>>>> 00729a7b3908fac83e682c1ed8b8d666f46ca1f8
