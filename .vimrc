@@ -30,7 +30,7 @@ if has("gui_running")
   if !exists("g:vimrcloaded")
       winpos 0 0
       if !&diff
-          winsize 130 120
+          winsize 180 120
       else
           winsize 227 120
       endif
