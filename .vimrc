@@ -21,7 +21,8 @@ if has("gui_running")
   set colorcolumn=+1
   set guioptions-=m
   set guioptions-=T
-  set guifont=Menlo:h13"
+  "set guifont=Menlo:h13"
+  set guifont=Menlo\ Regular\ for\ Powerline:h12
   " Different cursors for different modes.
   set guicursor=n-c:block-Cursor-blinkon0
   set guicursor+=v:block-vCursor-blinkon0
@@ -118,6 +119,9 @@ let g:pep8_map=',8'
 
 "Load the current buffer in Firefox - Mac specific.
 abbrev ff :! open -a firefox.app %:p<cr>
+
+"Load the current buffer in Google Chrome
+abbrev gc :! open -a "Google Chrome" %:p<cr>
 
 "sort css brace content
 :nmap <F7> :g#\({\n\)\@<=#.,/}/sort<CR>

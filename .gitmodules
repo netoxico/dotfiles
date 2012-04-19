@@ -37,3 +37,6 @@
 [submodule "vim/bundle/supertab"]
 	path = vim/bundle/supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule "vim/bundle/browser-refresh"]
+	path = vim/bundle/browser-refresh
+	url = https://github.com/mkitt/browser-refresh.vim.git
