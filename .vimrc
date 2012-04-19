@@ -85,13 +85,20 @@ au BufNewFile,BufRead *.html map <leader>ft Vatzf
 "Code completion
 imap ,<tab> <C-x><C-o>
 
-set wildmenu
-set completeopt=longest,menuone,preview
-inoremap <expr> <CR>  pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-inoremap <expr> <C-p> pumvisible() ? '<C-n>'  : '<C-n><C-r>=pumvisible() ? "\<lt>up>" : ""<CR>'
-inoremap <expr> <C-n> pumvisible() ? '<C-n>'  : '<C-n><C-r>=pumvisible() ? "\<lt>Down>" : ""<CR>'
+"set wildmenu
+"set completeopt=longest,menuone,preview
+"inoremap <expr> <CR>  pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+"inoremap <expr> <C-p> pumvisible() ? '<C-n>'  : '<C-n><C-r>=pumvisible() ? "\<lt>up>" : ""<CR>'
+"inoremap <expr> <C-n> pumvisible() ? '<C-n>'  : '<C-n><C-r>=pumvisible() ? "\<lt>Down>" : ""<CR>'
 
 let g:netrw_list_hide= '.*\.pyc$,^\.git/$,\.project$,\.pydevproject$,^\.settings/$,^\.svn/$,\.swp$'
+
+"Tagbar
+nmap <F6> :TagbarToggle<CR>
+
+"Powerline for vim
+set nocompatible   " Disable vi-compatibility
+set laststatus=2   " Always show the statusline
 
 "PeepOpen map
 map <leader><leader> <Plug>PeepOpen
