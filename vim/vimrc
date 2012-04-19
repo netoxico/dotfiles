@@ -91,6 +91,12 @@ inoremap <expr> <CR>  pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 inoremap <expr> <C-p> pumvisible() ? '<C-n>'  : '<C-n><C-r>=pumvisible() ? "\<lt>up>" : ""<CR>'
 inoremap <expr> <C-n> pumvisible() ? '<C-n>'  : '<C-n><C-r>=pumvisible() ? "\<lt>Down>" : ""<CR>'
 
+"Incremental search
+set incsearch
+
+"Tagbar
+nmap <F8> :TagbarToggle<CR>
+
 let g:netrw_list_hide= '.*\.pyc$,^\.git/$,\.project$,\.pydevproject$,^\.settings/$,^\.svn/$,\.swp$'
 
 "PeepOpen map
