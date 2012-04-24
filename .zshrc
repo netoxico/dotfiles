@@ -29,3 +29,5 @@ export PATH=$PATH:$HOME/lib/java/play-1.2.4
 #virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
+
+export SVN_EDITOR=vim
