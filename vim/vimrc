@@ -1,6 +1,6 @@
 "Personal .virmc configurations
 "Author: Ernesto Vargas
-"Source: https://github.com/netoxico/dotvimk
+"Source: https://github.com/netoxico/dotfiles/vim
 
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
@@ -16,7 +16,7 @@ syntax on
 set background=dark
 colorscheme molokai
 
-
+" Basic options ----------------------------------------------------------- {{{
 if has("gui_running")
   set colorcolumn=+1
   set guioptions-=m
@@ -40,7 +40,6 @@ if has("gui_running")
 endif
 :nohls
 
-
 let mapleader = ","
 inoremap jj <ESC>
 
@@ -60,6 +59,7 @@ set ttyfast
 set ruler
 set smartindent
 set showbreak=↪
+set fillchars=diff:⣿,vert:│
 
 set smarttab
 set tabstop=4
@@ -79,6 +79,7 @@ set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)
 inoremap <F8> <ESC>:set invfullscreen<CR>a
 nnoremap <F8> :set invfullscreen<CR>
 vnoremap <F8> :set invfullscreen<CR>
+" }}}
 
 "Fold Html Tag"
 au BufNewFile,BufRead *.html map <leader>ft Vatzf
@@ -156,7 +157,12 @@ au BufNewFile,BufRead dashboard.py normal! zR
 nnoremap <F1> <esc>:NERDTreeToggle<CR>
 let NERDTreeIgnore=['.vim$', '\~$', '.*\.pyc$', 'pip-log\.txt$', 'whoosh_index', 'xapian_index', '.*.pid', 'monitor.py', '.*-fixtures-.*.json', '.*\.o']
 
-"Folding
+" Folding settings ---------------------------------------------------------{{{
+set foldcolumn=0
+set foldenable
+set foldlevel=0
+set foldmethod=marker
+set foldtext=FoldText()
 set foldlevelstart=0
 
 nnoremap <Space> za
@@ -179,4 +185,4 @@ function! MyFoldText()
     return line . '…' . repeat(" ",fillcharcount) . foldedlinecount . '…' . ' '
 endfunction
 set foldtext=MyFoldText()
-
+" }}}
