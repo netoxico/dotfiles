@@ -136,7 +136,7 @@ if has("autocmd")
   autocmd bufwritepost .vimrc source $MYVIMRC
 endif
 
-"Django
+" Django -------------------------------------------------------------------{{{
 au BufNewFile,BufRead *.html setlocal filetype=htmldjango
 
 nnoremap _dt :set ft=htmldjango<CR>
@@ -152,7 +152,7 @@ au BufNewFile,BufRead forms.py     setlocal filetype=python.django
 au BufNewFile,BufRead urls.py      setlocal nowrap
 au BufNewFile,BufRead settings.py  normal! zR
 au BufNewFile,BufRead dashboard.py normal! zR
-
+" }}}  
 "NERD Tree Settings
 nnoremap <F1> <esc>:NERDTreeToggle<CR>
 let NERDTreeIgnore=['.vim$', '\~$', '.*\.pyc$', 'pip-log\.txt$', 'whoosh_index', 'xapian_index', '.*.pid', 'monitor.py', '.*-fixtures-.*.json', '.*\.o']
