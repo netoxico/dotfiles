@@ -10,7 +10,7 @@ filetype on
 filetype plugin indent on
 " }}}
 " Basic options ----------------------------------------------------------- {{{
-set background=light
+set background=dark
 colorscheme solarized
 
 let mapleader = ","
