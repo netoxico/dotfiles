@@ -49,6 +49,9 @@ set autoindent
 set showmode
 set showcmd
 set ttyfast
+set ttyscroll=3
+set lazyredraw
+set synmaxcol=128
 set ruler
 set smartindent
 set showbreak=↪

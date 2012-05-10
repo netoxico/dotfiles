@@ -30,4 +30,6 @@ export PATH=$PATH:$HOME/lib/java/play-1.2.4
 export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 
+export PATH=$PATH:/usr/local/mysql/bin
+
 export SVN_EDITOR=vim
