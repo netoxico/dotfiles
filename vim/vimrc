@@ -70,6 +70,7 @@ set textwidth=85
 set formatoptions=qrn1
 
 set timeoutlen=500
+set spell spelllang=en_us
 
 set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)
 " }}}
@@ -147,6 +148,19 @@ nmap <F6> :TagbarToggle<CR>
 inoremap <F8> <ESC>:set invfullscreen<CR>a
 nnoremap <F8> :set invfullscreen<CR>
 vnoremap <F8> :set invfullscreen<CR>
+
+map <leader>h :wincmd h<CR>
+map <leader>j :wincmd j<CR>
+map <leader>k :wincmd k<CR>
+map <leader>l :wincmd l<CR>
+
+nnoremap <silent> <leader>? :execute 'vimgrep /'.@/.'/g %'<CR>:copen<CR>
+map <F10> :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR>
+""vnoremap <F9> :execute 'vimgrep /'.@/.'/g %'<CR>:copen<CR>
+vnoremap / y:execute "/".escape(@",'[]/\.*')<CR>
+vnoremap <leader>/ execute "vimgrep /".@/."/gj .\/**\/*"<Bar> cw<CR>
+
+
 " }}}
 " Browser stuff-------------------------------------------------------------{{{
 "Load the current buffer in Firefox - Mac specific.
