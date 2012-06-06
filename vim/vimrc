@@ -156,9 +156,8 @@ map <leader>l :wincmd l<CR>
 
 nnoremap <silent> <leader>? :execute 'vimgrep /'.@/.'/g %'<CR>:copen<CR>
 map <F10> :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR>
-""vnoremap <F9> :execute 'vimgrep /'.@/.'/g %'<CR>:copen<CR>
 vnoremap / y:execute "/".escape(@",'[]/\.*')<CR>
-vnoremap <leader>/ execute "vimgrep /".@/."/gj .\/**\/*"<Bar> cw<CR>
+vnoremap <leader>/ y:execute "vimgrep /".@/."/gj .\/**\/*"<Bar> cw<CR>
 
 
 " }}}
