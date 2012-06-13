@@ -46,7 +46,7 @@ set cursorline
 set visualbell
 set history=1000
 set list
-set listchars=tab:▸\ ,eol:¬
+set listchars=tab:▸\ ,eol:¬,extends:❯,precedes:❮
 set autoindent
 set showmode
 set showcmd
@@ -159,7 +159,8 @@ map <F10> :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR>
 vnoremap / y:execute "/".escape(@",'[]/\.*')<CR>
 vnoremap <leader>/ y:execute "vimgrep /".@/."/gj .\/**\/*"<Bar> cw<CR>
 
-
+map <right> <ESC>:bn<CR>
+map <left> <ESC>:bp<CR>
 " }}}
 " Browser stuff-------------------------------------------------------------{{{
 "Load the current buffer in Firefox - Mac specific.
