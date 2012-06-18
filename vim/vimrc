@@ -41,6 +41,7 @@ set number
 set encoding=utf-8
 set modelines=0
 set hidden
+set incsearch
 set hlsearch
 set cursorline
 set visualbell
@@ -161,6 +162,14 @@ vnoremap <leader>/ y:execute "vimgrep /".@/."/gj .\/**\/*"<Bar> cw<CR>
 
 map <right> <ESC>:bn<CR>
 map <left> <ESC>:bp<CR>
+
+noremap <leader>hl :set hlsearch! hlsearch?<CR>
+
+" Resize windows with arrow keys
+nnoremap <D-Up> <C-w>+
+nnoremap <D-Down> <C-w>-
+nnoremap <D-Left> <C-w><
+nnoremap <D-Right>  <C-w>>
 " }}}
 " Browser stuff-------------------------------------------------------------{{{
 "Load the current buffer in Firefox - Mac specific.
