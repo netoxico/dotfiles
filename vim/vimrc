@@ -170,6 +170,8 @@ nnoremap <D-Up> <C-w>+
 nnoremap <D-Down> <C-w>-
 nnoremap <D-Left> <C-w><
 nnoremap <D-Right>  <C-w>>
+
+noremap <leader>sp :set spell! nospell?<CR>
 " }}}
 " Browser stuff-------------------------------------------------------------{{{
 "Load the current buffer in Firefox - Mac specific.
