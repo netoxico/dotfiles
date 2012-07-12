@@ -25,6 +25,7 @@ alias ql='qlmanage -p 2>/dev/null'
 
 #play
 export PATH=$PATH:$HOME/lib/java/play-2.0
+#export PATH=$PATH:$HOME/lib/java/play-1.2.4
 
 #virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs

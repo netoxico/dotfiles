@@ -22,9 +22,10 @@
 
 * ln -s ~/.dotfiles/vim ~/.vim
 * ln -s ~/.dotfiles/vim/vimrc ~/.vimrc
+* ln -s ~/.dotfiles/vim/gvimrc ~/.gvimrc
 * ln -s ~/.dotfiles/.zshrc ~/.zshrc
 * ln -s ~/.dotfiles/.gitexcludes ~/.gitexcludes
-* git config --global core.excludesfile ~/.gitexcludes
+* ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 
 ###Finaly turn zsh default shell
 * chsh -s /bin/zsh
