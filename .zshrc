@@ -1,5 +1,6 @@
 export ZSH=$HOME/.oh-my-zsh
 export ZSH_THEME="robbyrussell"
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 #export CASE_SENSITIVE="true"
 #export DISABLE_AUTO_UPDATE="true"
 #export DISABLE_LS_COLORS="true"

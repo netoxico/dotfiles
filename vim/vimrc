@@ -11,9 +11,10 @@ filetype plugin indent on
 " }}}
 " Basic options ----------------------------------------------------------- {{{
 
-let g:solarized_termcolors=256
 set background=dark
 colorscheme solarized
+""colorscheme badwolf
+"let g:solarized_termcolors=256
 
 let mapleader = ","
 inoremap jj <ESC>
@@ -124,6 +125,8 @@ au BufNewFile,BufRead dashboard.py normal! zR
 " Powerline for vim --------------------------------------------------------{{{
 set nocompatible
 set laststatus=2
+let g:Powerline_symbols = 'fancy'
+let g:Powerline_cache_enabled = 1
 " }}}
 " PeepOpen map -------------------------------------------------------------{{{
 map <leader><leader> <Plug>PeepOpen
@@ -180,6 +183,9 @@ abbrev ff :! open -a firefox.app %:p<cr>
 abbrev gc :! open -a "Google Chrome" %:p<cr>
 " }}}
 " Other --------------------------------------------------------------------{{{
+"
+nnoremap <silent> + :exe "resize " . (winheight(0) * 3/2)<CR>
+nnoremap <silent> - :exe "resize " . (winheight(0) * 2/3)<CR>
 
 "Fold Html Tag"
 au BufNewFile,BufRead *.html map <leader>ft Vatzf
