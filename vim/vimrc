@@ -73,6 +73,7 @@ set formatoptions=qrn1
 
 set timeoutlen=500
 set spell spelllang=en_us
+set nospell
 
 set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)
 " }}}
