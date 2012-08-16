@@ -1,0 +1,16 @@
+[user]
+	name = Ernesto Vargas
+	email = me@netoxico.com
+[core]
+	excludesfile = /Users/netoxico/.gitexcludes
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[color]
+	ui = true
+[alias]
+	lol = log --oneline --graph --decorate
+	st = status

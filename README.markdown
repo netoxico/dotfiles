@@ -27,6 +27,8 @@
 * ln -s ~/.dotfiles/.gitexcludes ~/.gitexcludes
 * ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 
+* ln -s ~/.dotfiles/tmux/tmux.conf ~/.tmux.conf
+
 ###Finaly turn zsh default shell
 * chsh -s /bin/zsh
 * restart terminal
