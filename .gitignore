@@ -1,0 +1,6 @@
+.D_Store
+*.pyc
+.netrwhist
+*.swp
+*.swo
+*.orig
