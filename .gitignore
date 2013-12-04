@@ -4,3 +4,7 @@
 *.swp
 *.swo
 *.orig
+
+*/**/doc/tags
+spell/*
+tmp/*

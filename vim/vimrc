@@ -3,38 +3,20 @@
 "Source: https://github.com/netoxico/dotfiles/vim
 
 " Pathogen----------------------------------------------------------------- {{{
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
-
+call pathogen#infect()
 filetype on
 filetype plugin indent on
 " }}}
 " Basic options ----------------------------------------------------------- {{{
 
+syntax enable
 set background=dark
+let g:solarized_termcolors=256
 colorscheme solarized
 ""colorscheme badwolf
-let g:solarized_termcolors=256
 
 let mapleader = ","
 inoremap jj <ESC>
-
-if has("gui_running")
-  set colorcolumn=+1
-  set guioptions-=m
-  set guioptions-=T
-  set guifont=Menlo\ Regular\ for\ Powerline:h12
-  highlight SpellBad term=underline gui=undercurl guisp=Orange
-  if !exists("g:vimrcloaded")
-      winpos 0 0
-      if !&diff
-          winsize 180 120
-      else
-          winsize 227 120
-      endif
-      let g:vimrcloaded = 1
-  endif
-endif
 
 :nohls
 syntax on
@@ -129,9 +111,6 @@ set laststatus=2
 let g:Powerline_symbols = 'fancy'
 let g:Powerline_cache_enabled = 1
 " }}}
-" PeepOpen map -------------------------------------------------------------{{{
-map <leader><leader> <Plug>PeepOpen
-" }}}
 " NERD Tree Settings -------------------------------------------------------{{{
 nnoremap <F1> <esc>:NERDTreeToggle<CR>
 let NERDTreeIgnore=['.vim$', '\~$', '.*\.pyc$', 'pip-log\.txt$', 'whoosh_index', 'xapian_index', '.*.pid', 'monitor.py', '.*-fixtures-.*.json', '.*\.o']
@@ -213,3 +192,4 @@ if has("autocmd")
   autocmd bufwritepost .vimrc source $MYVIMRC
 endif
 " }}}
+
