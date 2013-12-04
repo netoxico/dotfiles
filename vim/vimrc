@@ -9,7 +9,6 @@ filetype plugin indent on
 " }}}
 " Basic options ----------------------------------------------------------- {{{
 
-syntax on
 ""set background=light
 set background=dark
 ""let g:solarized_termtrans = 1
@@ -26,6 +25,7 @@ inoremap jj <ESC>
 syntax on
 set number
 set encoding=utf-8
+set fileencodings=utf-8
 set modelines=0
 set hidden
 set incsearch
@@ -46,6 +46,7 @@ set ruler
 set smartindent
 set showbreak=↪
 set fillchars=diff:⣿,vert:│
+set fillchars=diff:⣿,vert:\|
 
 set smarttab
 set tabstop=4
