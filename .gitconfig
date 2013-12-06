@@ -1,16 +1,25 @@
 [user]
-	name = Ernesto Vargas
-	email = me@netoxico.com
+    name = Ernesto Vargas
+    email = me@netoxico.com
 [core]
-	excludesfile = /Users/netoxico/.gitexcludes
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+    excludesfile = /Users/netoxico/.gitexcludes
+    editor = vim
+[push]
+    default = current
 [color]
-	ui = true
+    ui = true
 [alias]
-	lol = log --oneline --graph --decorate
-	st = status
+    lol = log --oneline --graph --decorate
+    st = status
+    d = difftool -y -t Kaleidoscope
+[diff]
+    tool = Kaleidoscope
+[difftool]
+    prompt = false
+[difftool "Kaleidoscope"]
+    cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[mergetool "Kaleidoscope"]
+    cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+    trustExitCode = true
+[web]
+    browser = open

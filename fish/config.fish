@@ -26,3 +26,8 @@ function emptytrash -d "Empty the OS X trash folders"
     sudo rm -rfv ~/.Trash
     sudo rm -rfv /private/var/log/asl/*.asl
 end
+
+#Vagrant
+alias vu 'vagrant up'
+alias vs 'vagrant ssh'
+alias vh 'vagrant halt'
