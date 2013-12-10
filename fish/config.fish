@@ -17,6 +17,8 @@ set -gx LC_ALL "en_US.UTF-8"
 set -gx LANG "en_US.UTF-8"
 set PATH $PATH /usr/local/sbin
 
+set -gx DJANGO_COLORS "light"
+
 alias ssh_work 'ssh evargas@201.149.38.227'
 alias ssh_netoxico 'ssh root@198.58.101.172'
 alias box_reload 'sudo /Library/StartupItems/VirtualBox/VirtualBox restart'
@@ -29,5 +31,6 @@ end
 
 #Vagrant
 alias vu 'vagrant up'
-alias vs 'vagrant ssh'
+alias vs 'vagrant suspend'
 alias vh 'vagrant halt'
+alias vssh 'vagrant ssh'
