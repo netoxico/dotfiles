@@ -1,38 +1,28 @@
 #Installation:
 
-###For my new os installation
-* cd ~/.ssh
-* ssh-keygen -t rsa -C "my@email.com"
-* Upload public key to github my account
+### Clone dotfile project
+```sh
+git clone git@github.com:netoxico/dotfiles.git ~/.dotfiles
+```
 
-###oh-my-zsh
+### Update vim plugins installed as git submodules
+```sh
+cd .dotfiles
+git submodule update --init
+```
 
-* git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
-
-###dotfiles
-
-* git clone git@github.com:netoxico/dotfiles.git ~/.dotfiles
-
-###For vim plugins installed as git submodules
-
-* cd .dotfiles
-* git submodule update --init
-
-###Create symlinks:
-
-* ln -s ~/.dotfiles/vim ~/.vim
-* ln -s ~/.dotfiles/vim/vimrc ~/.vimrc
-* ln -s ~/.dotfiles/vim/gvimrc ~/.gvimrc
-* ln -s ~/.dotfiles/.zshrc ~/.zshrc
-* ln -s ~/.dotfiles/.gitexcludes ~/.gitexcludes
-* ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
-
-* ln -s ~/.dotfiles/tmux/tmux.conf ~/.tmux.conf
-
-###Finaly turn zsh default shell
-* chsh -s /bin/zsh
-* restart terminal
+### Create symlinks
+```sh
+ln -s ~/.dotfiles/vim ~/.vim
+ln -s ~/.dotfiles/vim/vimrc ~/.vimrc
+ln -s ~/.dotfiles/vim/gvimrc ~/.gvimrc
+ln -s ~/.dotfiles/.gitexcludes ~/.gitexcludes
+ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/.dotfiles/tmux/tmux.conf ~/.tmux.conf
+ln -s ~/.dotfiles/fish/config.fish ~/.config/fish/config.fish
+```
 
 ###TODO
 
-* Will be better to have a script that execute all this steps.
+* shellscript for automating symlinks
+
