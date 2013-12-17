@@ -34,3 +34,5 @@ alias vu 'vagrant up'
 alias vs 'vagrant suspend'
 alias vh 'vagrant halt'
 alias vssh 'vagrant ssh'
+
+alias getsite 'wget --random-wait -r -p -e robots=off -U mozilla'
