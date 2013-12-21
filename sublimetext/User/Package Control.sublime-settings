@@ -1,0 +1,8 @@
+{
+	"installed_packages":
+	[
+		"Anaconda",
+		"SublimeLinter",
+		"SublimeLinter-flake8"
+	]
+}

@@ -1,4 +1,4 @@
-.D_Store
+.DS_Store
 *.pyc
 .netrwhist
 *.swp
@@ -8,3 +8,10 @@
 */**/doc/tags
 spell/*
 tmp/*
+
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.system-ca-bundle
+Package Control.cache/
+Package Control.ca-certs/

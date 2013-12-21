@@ -1,0 +1,19 @@
+{
+	"color_scheme": "Packages/User/Darkside (SL).tmTheme",
+	"detect_indentation": false,
+	"fade_fold_buttons": false,
+	"font_size": 12.0,
+	"ignored_packages":
+	[
+	],
+	"margin": 0,
+	"rulers":
+	[
+		80
+	],
+	"tab_size": 4,
+	"theme": "Soda Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"use_tab_stops": true,
+	"vintage_start_in_command_mode": true
+}
