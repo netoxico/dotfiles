@@ -3,6 +3,7 @@
 	[
 		"Anaconda",
 		"SublimeLinter",
-		"SublimeLinter-flake8"
+		"SublimeLinter-flake8",
+		"Theme - Soda"
 	]
 }
