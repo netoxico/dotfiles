@@ -11,19 +11,7 @@ cd .dotfiles
 git submodule update --init
 ```
 
-### Create symlinks
+### Execute install script
 ```sh
-ln -s ~/.dotfiles/vim ~/.vim
-ln -s ~/.dotfiles/vim/vimrc ~/.vimrc
-ln -s ~/.dotfiles/vim/gvimrc ~/.gvimrc
-ln -s ~/.dotfiles/.gitexcludes ~/.gitexcludes
-ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
-ln -s ~/.dotfiles/tmux/tmux.conf ~/.tmux.conf
-ln -s ~/.dotfiles/fish/config.fish ~/.config/fish/config.fish
-ln -s ~/.dotfiles/sublimetext/User/ ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+./install.sh
 ```
-
-###TODO
-
-* shellscript for automating symlinks
-
