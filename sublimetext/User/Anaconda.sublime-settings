@@ -40,8 +40,13 @@
         This can (an should) be overriden byb project settings
     */
     /*"python_interpreter": "python",*/
+<<<<<<< HEAD
     "python_interpreter": "/Users/evargas/.sublime-python-env/bin/python",
 
+=======
+    /*"python_interpreter": "~/.sublime-python-env/bin/python",*/
+    "python_interpreter": "/Users/ernesto/.sublime-python-env/bin/python",
+>>>>>>> 79b19c50cbde9bc62575dfa0abb2db40a2910f7d
     /*
         Set those aas true if you don't want Sublime Text regular completions
     */
