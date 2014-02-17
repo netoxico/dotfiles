@@ -40,7 +40,7 @@
         This can (an should) be overriden byb project settings
     */
     /*"python_interpreter": "python",*/
-    "python_interpreter": "~/.sublime-python-env/bin/python",
+    "python_interpreter": "/Users/evargas/.sublime-python-env/bin/python",
 
     /*
         Set those aas true if you don't want Sublime Text regular completions
@@ -243,7 +243,7 @@
     ],
 
     // Maximum line length for pep8
-    "pep8_max_line_length": 79,
+    "pep8_max_line_length": 150,
 
     /*
         You can ignore some of the "undefined name xxx"
@@ -330,7 +330,7 @@
     "settings": {
         "extra_paths":
         [
-            "~/.sublime-python-env/lib/python2.7/site-packages"
+            "/Users/evargas/.sublime-python-env/lib/python2.7/site-packages"
         ]
     }
 }
