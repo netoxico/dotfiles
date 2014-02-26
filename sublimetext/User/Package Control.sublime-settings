@@ -2,8 +2,10 @@
 	"installed_packages":
 	[
 		"Anaconda",
+		"Handlebars",
 		"SublimeLinter",
 		"SublimeLinter-flake8",
+		"SublimeLinter-jshint",
 		"Theme - Soda",
 		"Theme - Spacegray"
 	]
