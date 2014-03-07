@@ -10,7 +10,6 @@
     { "keys": [",",","], "command": "show_overlay", "args": {"overlay": "command_palette"} },
     { "keys": ["super+["], "command": "fold" },
     { "keys": ["super+]"], "command": "unfold" },
- 
-    { "keys": ["super+."], "command": "goto_python_definition" },
-    { "keys": ["alt+s"], "command": "toggle_side_bar" }
+    { "keys": ["super+/"], "command": "toggle_side_bar" },
+    { "keys": ["super+."], "command": "goto_python_definition" }
 ]
