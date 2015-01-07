@@ -2,7 +2,7 @@
 
 ### Clone dotfile project
 ```sh
-git clone git@github.com:netoxico/dotfiles.git ~/.dotfiles
+git clone https://github.com/netoxico/dotfiles.git ~/.dotfiles
 ```
 
 ### Update vim plugins installed as git submodules
