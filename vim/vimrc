@@ -2,6 +2,7 @@
 "Author: Ernesto Vargas
 "Source: https://github.com/netoxico/dotfiles/vim
 
+
 " Pathogen----------------------------------------------------------------- {{{
 call pathogen#infect()
 filetype on
@@ -9,6 +10,7 @@ filetype plugin indent on
 " }}}
 " Basic options ----------------------------------------------------------- {{{
 
+set shell=/bin/bash
 ""set background=light
 set background=dark
 ""let g:solarized_termtrans = 1
@@ -204,7 +206,6 @@ if has("autocmd")
   autocmd bufwritepost .vimrc source $MYVIMRC
 endif
 " }}}
-
 
 python from powerline.vim import setup as powerline_setup
 python powerline_setup()
