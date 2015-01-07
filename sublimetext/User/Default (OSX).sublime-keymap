@@ -18,5 +18,4 @@
     { "keys": [",", "b"], "command": "toggle_bookmark" },
     { "keys": [",", "c"], "command": "clear_bookmarks" },
     { "keys": ["alt+f2"], "command": "select_all_bookmarks" },
-
 ]
