@@ -16,11 +16,14 @@ set -gx C_INCLUDE_PATH "/usr/local/Cellar/libxml2/2.9.1/include/libxml2:$C_INCLU
 set -gx LC_ALL "en_US.UTF-8"
 set -gx LANG "en_US.UTF-8"
 set PATH $PATH /usr/local/sbin
+set ARCHFLAGS "-arch i386 -arch x86_64"
 
 set -gx DJANGO_COLORS "light"
 
-alias ssh_work 'ssh evargas@201.149.38.227'
-alias ssh_netoxico 'ssh root@198.58.101.172'
+alias danhos 'ssh superadmin@66.228.53.212 -p 44322'
+alias linode 'ssh web@198.58.101.172'
+alias raspberry 'ssh pi@192.168.15.9'
+
 alias box_reload 'sudo /Library/StartupItems/VirtualBox/VirtualBox restart'
 
 function emptytrash -d "Empty the OS X trash folders"
@@ -34,5 +37,13 @@ alias vu 'vagrant up'
 alias vs 'vagrant suspend'
 alias vh 'vagrant halt'
 alias vssh 'vagrant ssh'
+alias ibooks 'cd /Users/ernesto/Library/Containers/com.apple.BKAgentService/Data/Documents/iBooks/Books'
+
+# Docker
+set -gx DOCKER_HOST ""tcp://192.168.59.103:2376""
+set -gx DOCKER_CERT_PATH ""/Users/ernesto/.boot2docker/certs/boot2docker-vm""
+set -gx DOCKER_TLS_VERIFY 1
+
+boot2docker shellinit | source
 
 alias getsite 'wget --random-wait -r -p -e robots=off -U mozilla'

@@ -113,8 +113,15 @@ au BufNewFile,BufRead dashboard.py normal! zR
 " Powerline for vim --------------------------------------------------------{{{
 set nocompatible
 set laststatus=2
+set guifont=Inconsolata\ for\ Powerline:h15
+
 let g:Powerline_symbols = 'fancy'
 let g:Powerline_cache_enabled = 1
+
+if has("gui_running")
+    set guifont=Inconsolata\ for\ Powerline:h15
+endif
+
 " }}}
 " NERD Tree Settings -------------------------------------------------------{{{
 nnoremap <F1> <esc>:NERDTreeToggle<CR>

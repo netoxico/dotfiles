@@ -7,9 +7,16 @@
         { "key": "setting.is_widget", "operand": false }
         ]
     },
-    { "keys": [",",","], "command": "show_overlay", "args": {"overlay": "command_palette"} },
-    { "keys": ["super+["], "command": "fold" },
-    { "keys": ["super+]"], "command": "unfold" },
-    { "keys": ["super+/"], "command": "toggle_side_bar" },
-    { "keys": ["super+."], "command": "goto_python_definition" }
+    { "keys": [",", ","], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    // { "keys": ["super+["], "command": "fold" },
+    // { "keys": ["super+]"], "command": "unfold" },
+    { "keys": ["super+'"], "command": "toggle_side_bar" },
+    { "keys": ["super+."], "command": "goto_python_definition" },
+
+    { "keys": [",", "v"], "command": "next_bookmark" },
+    { "keys": [",", "n"], "command": "prev_bookmark" },
+    { "keys": [",", "b"], "command": "toggle_bookmark" },
+    { "keys": [",", "c"], "command": "clear_bookmarks" },
+    { "keys": ["alt+f2"], "command": "select_all_bookmarks" },
+
 ]
