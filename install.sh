@@ -23,7 +23,7 @@ ensure_link ".dotfiles/vim/gvimrc"         ".gvimrc"
 ensure_link ".dotfiles/.gitexcludes"       ".gitexcludes"
 ensure_link ".dotfiles/.gitconfig"         ".gitconfig"
 ensure_link ".dotfiles/tmux/tmux.conf"     ".tmux.conf"
-ensure_link ".dotfiles/fish"   ".config/fish"
+ensure_link ".dotfiles/fish"               ".config/fish"
 ensure_link ".dotfiles/sublimetext/User/"  "Library/Application Support/Sublime Text 3/Packages/User"
 
 echo "[*] Installation completed"
