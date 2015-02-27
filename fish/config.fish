@@ -38,6 +38,7 @@ alias vs 'vagrant suspend'
 alias vh 'vagrant halt'
 alias vssh 'vagrant ssh'
 alias ibooks 'cd /Users/ernesto/Library/Containers/com.apple.BKAgentService/Data/Documents/iBooks/Books'
+alias pserver 'python -m SimpleHTTPServer 8080'
 
 # Docker
 set -gx DOCKER_HOST ""tcp://192.168.59.103:2376""

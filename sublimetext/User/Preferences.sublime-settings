@@ -1,4 +1,5 @@
 {
+	"bold_folder_labels": false,
 	"color_scheme": "Packages/User/base16-ocean.dark (SL).tmTheme",
 	"detect_indentation": false,
 	"fade_fold_buttons": false,
@@ -20,19 +21,27 @@
 		"tmp/export_tree*",
 		"tmp/sass_compiler*"
 	],
-	"font_size": 12.0,
+	"font_face": "Meslo LG S DZ for Powerline",
+	"font_size": 12,
+	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Djaneiro"
+		"Djaneiro",
+		"Package Control"
 	],
 	"margin": 0,
+	"reveal-on-activate": true,
 	"rulers":
 	[
 		80
 	],
+	"spacegray_sidebar_font_small": true,
+	"spacegray_sidebar_tree_small": true,
+	"spacegray_tabs_font_small": true,
 	"tab_size": 4,
 	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"use_tab_stops": true,
-	"vintage_start_in_command_mode": true
+	"vintage_start_in_command_mode": true,
+	"word_wrap": true
 }

@@ -533,7 +533,21 @@
                 <key>foreground</key>
                 <string>#DDB700</string>
             </dict>
-        </dict></array>
+        </dict>
+        <dict>
+    <key>name</key>
+    <string>Block Cursor</string>
+    <key>scope</key>
+    <string>block_cursor</string>
+    <key>settings</key>
+    <dict>
+        <key>foreground</key>
+        <string>#242A34</string>
+        <key>background</key>
+        <string>#84DADA</string>
+    </dict>
+</dict>
+    </array>
 	<key>uuid</key>
 	<string>59c1e2f2-7b41-46f9-91f2-1b4c6f5866f7</string>
 </dict>

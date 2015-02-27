@@ -1,6 +1,7 @@
 {
 	"in_process_packages":
 	[
+		"Package Control"
 	],
 	"installed_dependencies":
 	[
@@ -10,6 +11,7 @@
 	"installed_packages":
 	[
 		"Anaconda",
+		"Block Cursor Everywhere",
 		"Djaneiro",
 		"GitGutter",
 		"Handlebars",
