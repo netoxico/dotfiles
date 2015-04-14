@@ -1,26 +1,14 @@
 {
 	"in_process_packages":
 	[
-		"Package Control"
-	],
-	"installed_dependencies":
-	[
-		"0_package_control_loader",
-		"bz2"
 	],
 	"installed_packages":
 	[
-		"Anaconda",
-		"Block Cursor Everywhere",
-		"Djaneiro",
-		"GitGutter",
-		"Handlebars",
 		"LESS",
 		"Package Control",
 		"SublimeLinter",
 		"SublimeLinter-flake8",
 		"SublimeLinter-jshint",
-		"SyncedSideBar",
 		"Theme - Soda",
 		"Theme - Spacegray"
 	]

@@ -1,6 +1,6 @@
 {
 	"bold_folder_labels": false,
-	"color_scheme": "Packages/User/base16-ocean.dark (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/base16-eighties.dark (SL).tmTheme",
 	"detect_indentation": false,
 	"fade_fold_buttons": false,
 	"folder_exclude_patterns":
@@ -20,15 +20,11 @@
 		"tmp/concat-tmp*",
 		"tmp/export_tree*",
 		"tmp/sass_compiler*",
-        "node_modules"
+		"node_modules"
 	],
-	"font_face": "Meslo LG S DZ for Powerline",
-	"font_size": 12,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Djaneiro",
-		"Package Control"
 	],
 	"margin": 0,
 	"reveal-on-activate": true,
@@ -40,7 +36,7 @@
 	"spacegray_sidebar_tree_small": true,
 	"spacegray_tabs_font_small": true,
 	"tab_size": 4,
-	"theme": "Spacegray.sublime-theme",
+	"theme": "Spacegray Eighties.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"use_tab_stops": true,
 	"vintage_start_in_command_mode": true,
