@@ -45,6 +45,4 @@ set -gx DOCKER_HOST ""tcp://192.168.59.103:2376""
 set -gx DOCKER_CERT_PATH ""/Users/ernesto/.boot2docker/certs/boot2docker-vm""
 set -gx DOCKER_TLS_VERIFY 1
 
-boot2docker shellinit | source
-
 alias getsite 'wget --random-wait -r -p -e robots=off -U mozilla'
